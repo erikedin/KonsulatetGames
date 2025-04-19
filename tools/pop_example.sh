@@ -7,4 +7,4 @@ nats pub game.niancat.lifetime '{"event": "newgame", "puzzle": "PSELDATOR", "tim
 nats pub game.niancat.instance.e9a194d1-a75e-4e6f-aa1b-3f70ba8b032c '{"event": "solution", "word": "PUSSGURKA", "timestamp": "2025-04-19T10:09:09+01:00", "user": "erike"}'
 nats pub game.niancat.instance.e9a194d1-a75e-4e6f-aa1b-3f70ba8b032c '{"event": "unsolution", "text": "This is not a solution", "timestamp": "2025-04-19T11:09:09+01:00", "user": "erike"}'
 
-nats pub game.niancat.point.streak '{"event": "streak", "user": "erike", "streak": 1, "timestamp": "2025-04-20T09:09:09+01:00"}'
+nats pub game.niancat.point.streak '{"event": "streaks", "streaks": [{"erike": 1}], "timestamp": "2025-04-20T09:09:09+01:00"}'

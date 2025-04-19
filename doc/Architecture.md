@@ -25,7 +25,7 @@ the calculation of points by streaks is only one possible way of keeping score. 
 add other services that calculates other scores.
 
 # Game creation and end
-> [!NOTE]
+> [!note]
 > The puzzles here are four letter words, and the unique identifiers are also four letter words,
 > to save on previous column space in the documentation.
 

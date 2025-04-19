@@ -44,3 +44,7 @@ $ bash tools/pop_examples.sh
 ```
 
 The subscription should now show a list of new events that were just published.
+
+# Documentation
+See the [doc/Architecture.md](doc/Architecture.md) for initial ideas on how the
+subjects in the NATS server will be used.

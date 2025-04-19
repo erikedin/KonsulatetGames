@@ -6,6 +6,7 @@ in
 pkgs.mkShellNoCC {
   packages = with pkgs; [
     nats-server
+    natscli
   ];
 
   XDG_DATA_HOME   = "$HOME/.local/share";
